@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/* ПОДКЛЮЧАЕМ ШРИФТЫ */
+
+@font-face {
+    src: url(../fonts/Poppins/Poppins-Regular.woff2) format("woff2"), 
+    url(../fonts/Poppins/Poppins-Regular.woff) format("woff"), 
+    url(../fonts/Poppins/Poppins-Regular.ttf) format("ttf");
+    font-display: swap;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(../fonts/Poppins/Poppins-Medium.woff2) format("woff2"), 
+    url(../fonts/Poppins/Poppins-Medium.woff) format("woff"), 
+    url(../fonts/Poppins/Poppins-Medium.ttf) format("ttf");
+    font-display: swap;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+@font-face {
+    src: url(../fonts/Poppins/Poppins-SemiBold.woff2) format("woff2"), 
+    url(../fonts/Poppins/Poppins-SemiBold.woff) format("woff"), 
+    url(../fonts/Poppins/Poppins-SemiBold.ttf) format("ttf");
+    font-display: swap;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+@font-face {
+    src: url(../fonts/Poppins/Poppins-Bold.woff2) format("woff2"), 
+    url(../fonts/Poppins/Poppins-Bold.woff) format("woff"), 
+    url(../fonts/Poppins/Poppins-Bold.ttf) format("ttf");
+    font-display: swap;
+    font-family: "Poppins";
+    font-weight: 700;
+}
+
+/* ПОДКЛЮЧАЕМ ШРИФТЫ */
