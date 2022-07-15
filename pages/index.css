@@ -14,6 +14,27 @@
 
 @import url(../blocks/scroll-lock/scroll-lock.css);
 
+/* Btn */
+
+@import url(../blocks/btn/btn.css);
+
+/* Form-input */
+
+@import url(../blocks/form-input/form-input.css);
+
+/* Section-title */
+
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-title/__mark/section-title__mark.css);
+
+/* Section-subtitle */
+
+@import url(../blocks/section-subtitle/section-subtitle.css);
+
+/* Main */
+
+@import url(../blocks/main/main.css);
+
 /* Active */
 
 @import url(../blocks/active/active.css);
@@ -41,10 +62,28 @@
 
 @import url(../blocks/language-dropdown/language-dropdown.css);
 @import url(../blocks/language-dropdown/__select/language-dropdown__select.css);
-@import url(../blocks/language-dropdown/__selected/language-dropdown__selected.css);
 @import url(../blocks/language-dropdown/__caret/language-dropdown__caret.css);
 @import url(../blocks/language-dropdown/__caret-rotate/language-dropdown__caret-rotate.css);
 @import url(../blocks/language-dropdown/__list/language-dropdown__list.css);
 @import url(../blocks/language-dropdown/__list-open/language-dropdown__list-open.css);
 @import url(../blocks/language-dropdown/__item/language-dropdown__item.css);
-@import url(../blocks/language-dropdown/__select-clicked/language-dropdown__select-clicked.css);
+
+/* Hero */
+
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__form-bottom-description/hero__form-bottom-description.css);
+@import url(../blocks/hero/__form-bottom/hero__form-bottom.css);
+@import url(../blocks/hero/__form/hero__form.css);
+@import url(../blocks/hero/__image/hero__image.css);
+@import url(../blocks/hero/__inner/hero__inner.css);
+@import url(../blocks/hero/__left/hero__left.css);
+@import url(../blocks/hero/__review-markets/hero__review-markets.css);
+@import url(../blocks/hero/__reviews-rate/hero__reviews-rate.css);
+@import url(../blocks/hero/__reviews/hero__reviews.css);
+@import url(../blocks/hero/__right/hero__right.css);
+@import url(../blocks/hero/__star-icon/hero__star-icon.css);
+@import url(../blocks/hero/__text/hero__text.css);
+@import url(../blocks/hero/__section-title/hero__section-title.css);
+@import url(../blocks/hero/__section-subtitle/hero__section-subtitle.css);
+@import url(../blocks/hero/__reviews-description/hero__reviews-description.css);
+@import url(../blocks/hero/__review-markets-image/hero__review-markets-image.css);
