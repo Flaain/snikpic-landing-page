@@ -87,3 +87,23 @@
 @import url(../blocks/hero/__section-subtitle/hero__section-subtitle.css);
 @import url(../blocks/hero/__reviews-description/hero__reviews-description.css);
 @import url(../blocks/hero/__review-markets-image/hero__review-markets-image.css);
+
+/* tabs-section */
+
+@import url(../blocks/tabs-section/tabs-section.css);
+@import url(../blocks/tabs-section/__text/tabs-section__text.css);
+@import url(../blocks/tabs-section/__right/tabs-section__right.css);
+@import url(../blocks/tabs-section/__left/tabs-section__left.css);
+@import url(../blocks/tabs-section/__replaces/tabs-section__replaces.css);
+@import url(../blocks/tabs-section/__replaces-title/tabs-section__replaces-title.css);
+@import url(../blocks/tabs-section/__replaces-comapnys/tabs-section__replaces-companys.css);
+@import url(../blocks/tabs-section/__replaces-comapny/tabs-section__replaces-company.css);
+@import url(../blocks/tabs-section/__nav/tabs-section__nav.css);
+@import url(../blocks/tabs-section/__item/tabs-section__item.css);
+@import url(../blocks/tabs-section/__item/_active/tabs-section__item_active.css);
+@import url(../blocks/tabs-section/__image/tabs-section__image.css);
+@import url(../blocks/tabs-section/__btn/tabs-section__btn.css);
+@import url(../blocks/tabs-section/__btn/_active/tabs-section__btn_active.css);
+@import url(../blocks/tabs-section/__title/tabs-section__title.css);
+@import url(../blocks/tabs-section/__title-mark/tabs-section__title-mark.css);
+@import url(../blocks/tabs-section/__subtitle/tabs-section__subtitle.css);
