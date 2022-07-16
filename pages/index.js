@@ -23,7 +23,7 @@ if (menu && burgerIcon) {
 
 const languageDropDown = document.querySelectorAll(".language-dropdown");
 
-languageDropDown.forEach(dropdown => {
+languageDropDown.forEach((dropdown) => {
     const select = dropdown.querySelector(".language-dropdown__select");
     const caret = dropdown.querySelector(".language-dropdown__caret");
     const list = dropdown.querySelector(".language-dropdown__list");
@@ -48,3 +48,29 @@ languageDropDown.forEach(dropdown => {
         });
     });
 });
+
+const tabsBtn = document.querySelectorAll(".tabs-section__btn");
+const tabsItems = document.querySelectorAll(".tabs-section__item");
+
+tabsBtn.forEach(onTabClick);
+
+function onTabClick(item) {
+    item.addEventListener("click", function() {
+        let currentBtn = item;
+        let tabId = currentBtn.getAttribute("data-tab");
+        let currentTab = document.querySelector(tabId);
+
+        if (!currentBtn.classList.contains("tabs-section__btn_active")) {
+            tabsBtn.forEach(function(item) {
+                item.classList.remove("tabs-section__btn_active");
+            });
+            tabsItems.forEach(function(item) {
+                item.classList.remove("tabs-section__item_active");
+            });
+            currentBtn.classList.add("tabs-section__btn_active");
+            currentTab.classList.add("tabs-section__item_active");
+        }
+    });
+}
+
+document.querySelector(".tabs-section__btn").click();

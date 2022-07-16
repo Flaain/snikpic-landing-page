@@ -234,13 +234,13 @@
             </section>
             <section class="tabs-section">
                 <nav class="tabs-section__nav">
-                    <button class="tabs-section__btn tabs-section__btn_active" type="button">create</button>
-                    <button class="tabs-section__btn" type="button">manage</button>
-                    <button class="tabs-section__btn" type="button">automate</button>
-                    <button class="tabs-section__btn" type="button">chat</button>
-                    <button class="tabs-section__btn" type="button">delegate</button>
+                    <button class="tabs-section__btn" type="button" data-tab="#tab-create">create</button>
+                    <button class="tabs-section__btn" type="button" data-tab="#tab-manage">manage</button>
+                    <button class="tabs-section__btn" type="button" data-tab="#tab-automate">automate</button>
+                    <button class="tabs-section__btn" type="button" data-tab="#tab-chat">chat</button>
+                    <button class="tabs-section__btn" type="button" data-tab="#tab-delegate">delegate</button>
                 </nav>
-                <div class="tabs-section__item tabs-section__item_active">
+                <div class="tabs-section__item" id="tab-create">
                     <div class="tabs-section__left">
                         <div class="tabs-section__text">
                             <h2 class="section-title tabs-section__title">all your creative tasks <span class="section-title__mark tabs-section__title-mark">simplified with&nbsp;AI.</span></h2>
@@ -273,7 +273,131 @@
                         </div>
                     </div>
                     <div class="tabs-section__right">
-                        <img src="images/tabs-section__image.png" alt="" class="tabs-section__image" />
+                        <img src="images/tabs-section__image-create.png" alt="" class="tabs-section__image" />
+                    </div>
+                </div>
+                <div class="tabs-section__item" id="tab-manage">
+                    <div class="tabs-section__left">
+                        <div class="tabs-section__text">
+                            <h2 class="section-title tabs-section__title">transparency over all the <span class="section-title__mark tabs-section__title-mark">work ahead of you.</span></h2>
+                            <p class="section-subtitle tabs-section__subtitle">Plan, track, and manage all your work with project management that flexes to&nbsp;your team&rsquo;s needs.</p>
+                        </div>
+                        <div class="tabs-section__replaces">
+                            <h3 class="tabs-section__replaces-title">Replaces</h3>
+                            <div class="tabs-section__replaces-companys">
+                                <a href="#" class="tabs-section__replaces-company">
+                                    Asana
+                                    <svg width="1" height="16" viewBox="0 0 1 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line opacity="0.1" x1="0.5" y1="1.0285e-08" x2="0.499999" y2="16" stroke="#1D2736" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="tabs-section__replaces-company">
+                                    Monday
+                                </a>
+                            </div>
+                            <button class="btn" type="button">Sign up</button>
+                        </div>
+                    </div>
+                    <div class="tabs-section__right">
+                        <img src="images/tabs-section__image-manage.png" alt="" class="tabs-section__image" />
+                    </div>
+                </div>
+                <div class="tabs-section__item" id="tab-automate">
+                    <div class="tabs-section__left">
+                        <div class="tabs-section__text">
+                            <h2 class="section-title tabs-section__title">your entire workflow <span class="section-title__mark tabs-section__title-mark">on autopilot.</span></h2>
+                            <p class="section-subtitle tabs-section__subtitle">
+                                Eliminate the busywork and focus on&nbsp;what matters with hundreds of&nbsp;Automations. Automatically assign tasks, post comments, update statuses, and sync with other tools.
+                            </p>
+                        </div>
+                        <div class="tabs-section__replaces">
+                            <h3 class="tabs-section__replaces-title">Replaces</h3>
+                            <div class="tabs-section__replaces-companys">
+                                <a href="#" class="tabs-section__replaces-company">
+                                    Uipath
+                                    <svg width="1" height="16" viewBox="0 0 1 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line opacity="0.1" x1="0.5" y1="1.0285e-08" x2="0.499999" y2="16" stroke="#1D2736" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="tabs-section__replaces-company">
+                                    Zapier
+                                    <svg width="1" height="16" viewBox="0 0 1 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line opacity="0.1" x1="0.5" y1="1.0285e-08" x2="0.499999" y2="16" stroke="#1D2736" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="tabs-section__replaces-company">
+                                    Airtable
+                                </a>
+                            </div>
+                            <button class="btn" type="button">Sign up</button>
+                        </div>
+                    </div>
+                    <div class="tabs-section__right">
+                        <img src="images/tabs-section__image-automate.png" alt="" class="tabs-section__image" />
+                    </div>
+                </div>
+                <div class="tabs-section__item" id="tab-chat">
+                    <div class="tabs-section__left">
+                        <div class="tabs-section__text">
+                            <h2 class="section-title tabs-section__title">one single chat <span class="section-title__mark tabs-section__title-mark">to rule them all.</span></h2>
+                            <p class="section-subtitle tabs-section__subtitle">Work smarter as&nbsp;a&nbsp;team with real-time chat. All your client-facing conversations are automatically bridged to&nbsp;Whatsapp</p>
+                        </div>
+                        <div class="tabs-section__replaces">
+                            <h3 class="tabs-section__replaces-title">Replaces</h3>
+                            <div class="tabs-section__replaces-companys">
+                                <a href="#" class="tabs-section__replaces-company">
+                                    Slack
+                                    <svg width="1" height="16" viewBox="0 0 1 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line opacity="0.1" x1="0.5" y1="1.0285e-08" x2="0.499999" y2="16" stroke="#1D2736" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="tabs-section__replaces-company">
+                                    MS Teams
+                                    <svg width="1" height="16" viewBox="0 0 1 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line opacity="0.1" x1="0.5" y1="1.0285e-08" x2="0.499999" y2="16" stroke="#1D2736" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="tabs-section__replaces-company">
+                                    Whatsapp
+                                </a>
+                            </div>
+                            <button class="btn" type="button">Sign up</button>
+                        </div>
+                    </div>
+                    <div class="tabs-section__right">
+                        <img src="images/tabs-section__image-chat.png" alt="" class="tabs-section__image" />
+                    </div>
+                </div>
+                <div class="tabs-section__item" id="tab-delegate">
+                    <div class="tabs-section__left">
+                        <div class="tabs-section__text">
+                            <h2 class="section-title tabs-section__title">find the right teammates to <span class="section-title__mark tabs-section__title-mark">get things done.</span></h2>
+                            <p class="section-subtitle tabs-section__subtitle">Access the largest network of&nbsp;marketing professional to&nbsp;delegate your tasks and automatically orchestrate payment across teams and clients</p>
+                        </div>
+                        <div class="tabs-section__replaces">
+                            <h3 class="tabs-section__replaces-title">Replaces</h3>
+                            <div class="tabs-section__replaces-companys">
+                                <a href="#" class="tabs-section__replaces-company">
+                                    Upwork
+                                    <svg width="1" height="16" viewBox="0 0 1 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line opacity="0.1" x1="0.5" y1="1.0285e-08" x2="0.499999" y2="16" stroke="#1D2736" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="tabs-section__replaces-company">
+                                    Malt
+                                    <svg width="1" height="16" viewBox="0 0 1 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line opacity="0.1" x1="0.5" y1="1.0285e-08" x2="0.499999" y2="16" stroke="#1D2736" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="tabs-section__replaces-company">
+                                    Fiverr
+                                </a>
+                            </div>
+                            <button class="btn" type="button">Sign up</button>
+                        </div>
+                    </div>
+                    <div class="tabs-section__right">
+                        <img src="images/tabs-section__image-delegate.png" alt="" class="tabs-section__image" />
                     </div>
                 </div>
             </section>
